@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 body{
     background-color:hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    
 }
 .rect{
     background-color:hsl(0, 0%, 100%);
@@ -20,8 +27,8 @@ body{
 }
 
 .learning-badge{
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family:'Figtree' sans-serif;
+    font-weight: 800;
     background-color: hsl(47, 88%, 63%);
     border-radius:5px;
     padding:7px 10px;
@@ -31,9 +38,33 @@ body{
 
 .date{
     margin-left:25px;
+    font-size:14px;
 }
  
 h2{
     margin-left: 25px;
+    font-family:'Figtree';
+    font-weight: 800;
+    
 }
 
+.description{
+    color:hsl(0, 0%, 42%);
+    padding:0 25px
+}
+
+.avatar{
+    margin-left: 25px;
+    height: 35px;
+}
+
+.name{
+    
+}
+
+.author-info{
+  display: flex;
+  align-items: center;
+  gap:12px;
+  font-weight: 900;
+}
